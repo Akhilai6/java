@@ -8,7 +8,7 @@ public class months {
 		
 		switch(n) {
 		case 1:
-           System.out.println("January");
+                        System.out.println("January");
 		case 2:
 			System.out.println("February");
 		case 3:
@@ -31,6 +31,8 @@ public class months {
 			System.out.println("November");
 		case 12:
 			System.out.println("December");
+		default :
+			System.out.println("invalid choice");	
 	}
 
 }
